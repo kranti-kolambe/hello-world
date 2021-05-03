@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CourseComponent } from './course.component';
+import { StylebindingComponent } from './stylebinding/stylebinding.component';
+import { ClassbindingComponent } from './classbinding/classbinding.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CourseComponent,
+    StylebindingComponent,
+    ClassbindingComponent
   ],
   imports: [
     BrowserModule,
@@ -14,5 +20,6 @@ import { AppComponent } from './app.component';
   ],
   providers: [],
   bootstrap: [AppComponent]
+
 })
 export class AppModule { }
